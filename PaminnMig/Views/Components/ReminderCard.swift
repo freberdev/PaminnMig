@@ -86,7 +86,7 @@ struct ReminderCard: View {
         }
         .sheet(isPresented: $showingSnooze) {
             SnoozeSheet(reminder: reminder)
-                .presentationDetents([.medium])
+                .presentationDetents([.medium, .large])
         }
     }
 
@@ -220,38 +220,42 @@ struct SnoozeSheet: View {
                 .padding(.top, 4)
                 .padding(.bottom, 16)
 
-            ForEach(SnoozeOption.smartOptions()) { opt in
-                Button {
-                    snooze(until: opt.snoozeTime)
-                } label: {
-                    HStack(spacing: 12) {
-                        Image(systemName: "clock")
-                            .font(.system(size: 16))
-                            .foregroundColor(AppTheme.accentColor)
-                        Text(opt.label)
-                            .font(.system(size: 15))
-                            .foregroundColor(AppTheme.textPrimary)
+            ScrollView {
+                VStack(alignment: .leading, spacing: 0) {
+                    ForEach(SnoozeOption.smartOptions()) { opt in
+                        Button {
+                            snooze(until: opt.snoozeTime)
+                        } label: {
+                            HStack(spacing: 12) {
+                                Image(systemName: "clock")
+                                    .font(.system(size: 16))
+                                    .foregroundColor(AppTheme.accentColor)
+                                Text(opt.label)
+                                    .font(.system(size: 15))
+                                    .foregroundColor(AppTheme.textPrimary)
+                            }
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.vertical, 12)
+                            .padding(.horizontal, 16)
+                        }
                     }
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.vertical, 12)
-                    .padding(.horizontal, 16)
-                }
-            }
 
-            Button {
-                showDatePicker = true
-            } label: {
-                HStack(spacing: 12) {
-                    Image(systemName: "calendar")
-                        .font(.system(size: 16))
-                        .foregroundColor(AppTheme.accentColor)
-                    Text("Välj datum och tid...")
-                        .font(.system(size: 15))
-                        .foregroundColor(AppTheme.textPrimary)
+                    Button {
+                        showDatePicker = true
+                    } label: {
+                        HStack(spacing: 12) {
+                            Image(systemName: "calendar")
+                                .font(.system(size: 16))
+                                .foregroundColor(AppTheme.accentColor)
+                            Text("Välj datum och tid...")
+                                .font(.system(size: 15))
+                                .foregroundColor(AppTheme.textPrimary)
+                        }
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.vertical, 12)
+                        .padding(.horizontal, 16)
+                    }
                 }
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .padding(.vertical, 12)
-                .padding(.horizontal, 16)
             }
         }
         .padding(.horizontal, 20)
