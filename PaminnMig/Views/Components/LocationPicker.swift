@@ -168,6 +168,13 @@ struct LocationPicker: View {
 
     private func onSearchChanged(_ query: String) {
         searchTask?.cancel()
+        // Clear previous selection when user types a new query
+        if query != selectedName {
+            latitude = nil
+            longitude = nil
+            selectedName = nil
+            locationTrigger = nil
+        }
         guard query.trimmingCharacters(in: .whitespaces).count >= 2 else {
             searchResults = []
             isSearching = false
