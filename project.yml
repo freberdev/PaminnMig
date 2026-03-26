@@ -1,0 +1,28 @@
+name: PaminnMig
+options:
+  bundleIdPrefix: com.freberdev
+  deploymentTarget:
+    iOS: "26.0"
+  xcodeVersion: "16.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+
+targets:
+  PaminnMig:
+    type: application
+    platform: iOS
+    sources:
+      - path: PaminnMig
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.freberdev.paminnmig
+        INFOPLIST_FILE: PaminnMig/Info.plist
+        CODE_SIGN_ENTITLEMENTS: PaminnMig/PaminnMig.entitlements
+        PRODUCT_NAME: PaminnMig
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: 1
+        SUPPORTS_MACCATALYST: false
+        TARGETED_DEVICE_FAMILY: 1
+        CODE_SIGN_STYLE: Automatic

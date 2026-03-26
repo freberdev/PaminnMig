@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162CD065B5D9F615B3727000 /* RecurrencePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887BDD4CC0267666EBB54D19 /* RecurrencePicker.swift */; };
+		3B88F6BAB136635B5D3DA35B /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24363AE42813DF070509C483 /* LocationService.swift */; };
+		3F67E4568711EB81FC960623 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F722E93D358FA7BD9D6A26B6 /* Reminder.swift */; };
+		43E8C04D99FFE7BE4A0208B5 /* PaminnMigApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF343891A9DEE861E01F799B /* PaminnMigApp.swift */; };
+		55A7A245A249547512CE7FBF /* SnoozeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49249C535272A5DA1119A3DD /* SnoozeOptions.swift */; };
+		5C8512832224CDF05C193AA6 /* LocationPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92851F6963431E6472C3FE2 /* LocationPicker.swift */; };
+		6D49AEFD7C8D932EEE314742 /* CreateReminderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3AB07D8BEED1DE64481DBA7 /* CreateReminderScreen.swift */; };
+		7234753BB4C25DBC88C99C6C /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD778BA2C09AA77D6C0C113 /* SplashScreen.swift */; };
+		790F50905B2FAB84AACFAF76 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938A6886AE67E47A5056B93 /* NotificationService.swift */; };
+		81B5AFEDA424A4233A4AFD81 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F2531C4FEED0ADC5F87DD7 /* SettingsScreen.swift */; };
+		89B2BB33C8E82064AE03B227 /* ReminderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359B1339303C225E98F7673B /* ReminderCard.swift */; };
+		8FCE243B80EFD5FA68D5D03E /* QuietHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80CB64489A72FFAE304B9AB /* QuietHours.swift */; };
+		917BD78F0A9A26FF3104601D /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BEAC8B5A89F0142CB2849 /* AppTheme.swift */; };
+		A9842B2F9C549BB23960657B /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D391C6C8371090B46AF3A8 /* HomeScreen.swift */; };
+		B53AAA0C91A56FA9FEE167DA /* CategoryFilterSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A518EB5D4CEA3546C62E51 /* CategoryFilterSheet.swift */; };
+		D7031D73246D6F5270E47E6D /* DateHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4A14FB116F6FB8354CA9E /* DateHelpers.swift */; };
+		D8517DD6C05AED6EB8929290 /* DetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FF0367FC25ED3F67D06E1D /* DetailSheet.swift */; };
+		E34C426ED120EFF2FD822431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE1EF5C3EB777A7BE7FBA1D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07A518EB5D4CEA3546C62E51 /* CategoryFilterSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFilterSheet.swift; sourceTree = "<group>"; };
+		24363AE42813DF070509C483 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		2CF4A14FB116F6FB8354CA9E /* DateHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelpers.swift; sourceTree = "<group>"; };
+		359B1339303C225E98F7673B /* ReminderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCard.swift; sourceTree = "<group>"; };
+		49249C535272A5DA1119A3DD /* SnoozeOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoozeOptions.swift; sourceTree = "<group>"; };
+		5CD778BA2C09AA77D6C0C113 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		78F2531C4FEED0ADC5F87DD7 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		887BDD4CC0267666EBB54D19 /* RecurrencePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecurrencePicker.swift; sourceTree = "<group>"; };
+		8BA1436760556623EEDF75FD /* PaminnMig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaminnMig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		910BEAC8B5A89F0142CB2849 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		A057F94D2AAB1CDA5B3EC7D4 /* PaminnMig.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaminnMig.entitlements; sourceTree = "<group>"; };
+		A2A8A32AC9C8AEFB6614A90C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A8FF0367FC25ED3F67D06E1D /* DetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSheet.swift; sourceTree = "<group>"; };
+		C938A6886AE67E47A5056B93 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		CF343891A9DEE861E01F799B /* PaminnMigApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaminnMigApp.swift; sourceTree = "<group>"; };
+		DCE1EF5C3EB777A7BE7FBA1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3AB07D8BEED1DE64481DBA7 /* CreateReminderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateReminderScreen.swift; sourceTree = "<group>"; };
+		E3D391C6C8371090B46AF3A8 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E80CB64489A72FFAE304B9AB /* QuietHours.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuietHours.swift; sourceTree = "<group>"; };
+		F722E93D358FA7BD9D6A26B6 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		F92851F6963431E6472C3FE2 /* LocationPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		028BA6795723ADD84A0C6BBA /* PaminnMig */ = {
+			isa = PBXGroup;
+			children = (
+				DCE1EF5C3EB777A7BE7FBA1D /* Assets.xcassets */,
+				A2A8A32AC9C8AEFB6614A90C /* Info.plist */,
+				A057F94D2AAB1CDA5B3EC7D4 /* PaminnMig.entitlements */,
+				CF343891A9DEE861E01F799B /* PaminnMigApp.swift */,
+				E2181EE23FBB90E587DA9E71 /* Models */,
+				85141207EBC938437E139D61 /* Services */,
+				5AAE2D8ECC95DC77C4D7CEB8 /* Utils */,
+				43E839A63C9270BE36C1D48F /* Views */,
+			);
+			path = PaminnMig;
+			sourceTree = "<group>";
+		};
+		43E839A63C9270BE36C1D48F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3AB07D8BEED1DE64481DBA7 /* CreateReminderScreen.swift */,
+				E3D391C6C8371090B46AF3A8 /* HomeScreen.swift */,
+				78F2531C4FEED0ADC5F87DD7 /* SettingsScreen.swift */,
+				5CD778BA2C09AA77D6C0C113 /* SplashScreen.swift */,
+				C3633115F14A45BC8A0EBA09 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5AAE2D8ECC95DC77C4D7CEB8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2CF4A14FB116F6FB8354CA9E /* DateHelpers.swift */,
+				49249C535272A5DA1119A3DD /* SnoozeOptions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6EF9C2C18F490EE62F255727 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BA1436760556623EEDF75FD /* PaminnMig.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85141207EBC938437E139D61 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				24363AE42813DF070509C483 /* LocationService.swift */,
+				C938A6886AE67E47A5056B93 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9E447C230060C2018CF84265 = {
+			isa = PBXGroup;
+			children = (
+				028BA6795723ADD84A0C6BBA /* PaminnMig */,
+				6EF9C2C18F490EE62F255727 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3633115F14A45BC8A0EBA09 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				07A518EB5D4CEA3546C62E51 /* CategoryFilterSheet.swift */,
+				A8FF0367FC25ED3F67D06E1D /* DetailSheet.swift */,
+				F92851F6963431E6472C3FE2 /* LocationPicker.swift */,
+				887BDD4CC0267666EBB54D19 /* RecurrencePicker.swift */,
+				359B1339303C225E98F7673B /* ReminderCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E2181EE23FBB90E587DA9E71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				910BEAC8B5A89F0142CB2849 /* AppTheme.swift */,
+				E80CB64489A72FFAE304B9AB /* QuietHours.swift */,
+				F722E93D358FA7BD9D6A26B6 /* Reminder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F79CEF7C522FD4185DA815A1 /* PaminnMig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E079ABB681FF68DD7E7567 /* Build configuration list for PBXNativeTarget "PaminnMig" */;
+			buildPhases = (
+				8D2AC23CA5F37D4C078E4C2E /* Sources */,
+				2647898B198B83B6D3EF139A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaminnMig;
+			packageProductDependencies = (
+			);
+			productName = PaminnMig;
+			productReference = 8BA1436760556623EEDF75FD /* PaminnMig.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21192F48E2D167829732381A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F79CEF7C522FD4185DA815A1 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F1AB2642F52944D47E4A368C /* Build configuration list for PBXProject "PaminnMig" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9E447C230060C2018CF84265;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6EF9C2C18F490EE62F255727 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F79CEF7C522FD4185DA815A1 /* PaminnMig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2647898B198B83B6D3EF139A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34C426ED120EFF2FD822431 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D2AC23CA5F37D4C078E4C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917BD78F0A9A26FF3104601D /* AppTheme.swift in Sources */,
+				B53AAA0C91A56FA9FEE167DA /* CategoryFilterSheet.swift in Sources */,
+				6D49AEFD7C8D932EEE314742 /* CreateReminderScreen.swift in Sources */,
+				D7031D73246D6F5270E47E6D /* DateHelpers.swift in Sources */,
+				D8517DD6C05AED6EB8929290 /* DetailSheet.swift in Sources */,
+				A9842B2F9C549BB23960657B /* HomeScreen.swift in Sources */,
+				5C8512832224CDF05C193AA6 /* LocationPicker.swift in Sources */,
+				3B88F6BAB136635B5D3DA35B /* LocationService.swift in Sources */,
+				790F50905B2FAB84AACFAF76 /* NotificationService.swift in Sources */,
+				43E8C04D99FFE7BE4A0208B5 /* PaminnMigApp.swift in Sources */,
+				8FCE243B80EFD5FA68D5D03E /* QuietHours.swift in Sources */,
+				162CD065B5D9F615B3727000 /* RecurrencePicker.swift in Sources */,
+				3F67E4568711EB81FC960623 /* Reminder.swift in Sources */,
+				89B2BB33C8E82064AE03B227 /* ReminderCard.swift in Sources */,
+				81B5AFEDA424A4233A4AFD81 /* SettingsScreen.swift in Sources */,
+				55A7A245A249547512CE7FBF /* SnoozeOptions.swift in Sources */,
+				7234753BB4C25DBC88C99C6C /* SplashScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		365FD01B1A783A9C185E6523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PaminnMig/PaminnMig.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GSG2J2U5F;
+				INFOPLIST_FILE = PaminnMig/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Påminn Mig!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freberdev.paminnmig;
+				PRODUCT_NAME = PaminnMig;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6F531C085EEDAC1556886AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		70FB0A2395CA68F9017000AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		9596C5573A530D22083E3CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PaminnMig/PaminnMig.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2GSG2J2U5F;
+				INFOPLIST_FILE = PaminnMig/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Påminn Mig!";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freberdev.paminnmig;
+				PRODUCT_NAME = PaminnMig;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46E079ABB681FF68DD7E7567 /* Build configuration list for PBXNativeTarget "PaminnMig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				365FD01B1A783A9C185E6523 /* Debug */,
+				9596C5573A530D22083E3CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1AB2642F52944D47E4A368C /* Build configuration list for PBXProject "PaminnMig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70FB0A2395CA68F9017000AD /* Debug */,
+				6F531C085EEDAC1556886AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21192F48E2D167829732381A /* Project object */;
+}
